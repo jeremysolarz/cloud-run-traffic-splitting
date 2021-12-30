@@ -45,7 +45,7 @@ resource "google_artifact_registry_repository" "my-repo" {
   project                  = var.project_id
 
   location = local.region
-  repository_id = ${local.service-name}
+  repository_id = local.service-name
   description = "example docker repository"
   format = "DOCKER"
 }
