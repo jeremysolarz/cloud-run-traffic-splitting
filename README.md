@@ -1,4 +1,4 @@
-# Example: Traffic splitting with Terraform for [Cloud Run](cloud.run)
+# Example: Traffic splitting for [Cloud Run](cloud.run) with Terraform
 
 Cloud Run allows to create multiple revisions of a service and split traffic between revisions.
 
