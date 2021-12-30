@@ -39,3 +39,6 @@ resource "google_cloud_run_service" "default" {
 
 As the comment states "This revision needs to already exist". But also with an existing service the Terraform resource does not work.
 
+Gist of [debug output](https://gist.github.com/jeremysolarz/27d8ff7b75965f363ef6fce6c8ceba2c).
+
+[Issue 10815](https://github.com/hashicorp/terraform-provider-google/issues/10815) created with further context.
